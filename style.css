@@ -1,23 +1,16 @@
 #map {
-    background: blue;
+    background: rgb(50, 115, 220);
 }
 #tooltip {
-    background: red;
+    background: rgb(255, 56, 96);
     padding: 50px;
 }
 .department:hover {
-    fill: yellow;
+    fill: rgb(255, 221, 87);
     stroke: white;
     stroke-width: 1px;
 }
 .column {
     line-height: 2em;
     color: whitesmoke;
-}
-ul {
-  list-style-type: disc;
-}
-li {
-  font-size: 14px;
-  line-height: 20px;
 }
