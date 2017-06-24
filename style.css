@@ -5,6 +5,11 @@
     background: rgb(255, 56, 96);
     padding: 50px;
 }
+.department {
+    fill: #555;
+    stroke: white;
+    stroke-width: 1px;
+}
 .department:hover {
     fill: rgb(255, 221, 87);
     stroke: white;
@@ -17,7 +22,6 @@
 .menu-list {
     padding: 2em;
 }
-
 iframe {
     padding: 1em;
     border: 2px solid black;
@@ -29,4 +33,10 @@ h2 {
 }
 li {
   font-size: 10px;
+}
+header {
+  line-height: 50px;
+}
+header div {
+  display: inline-block;
 }
