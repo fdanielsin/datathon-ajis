@@ -1,7 +1,7 @@
 #map {
     background: blue;
 }
-#tooltip { 
+#tooltip {
     background: red;
     padding: 50px;
 }
@@ -13,4 +13,11 @@
 .column {
     line-height: 2em;
     color: whitesmoke;
+}
+ul {
+  list-style-type: disc;
+}
+li {
+  font-size: 14px;
+  line-height: 20px;
 }
