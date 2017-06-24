@@ -1,12 +1,17 @@
 #map {
-    background: blue;
+    background: rgb(50, 115, 220);
 }
 #tooltip {
-    background: red;
+    background: rgb(255, 56, 96);
     padding: 50px;
 }
+.department {
+    fill: #555;
+    stroke: white;
+    stroke-width: 1px;
+}
 .department:hover {
-    fill: yellow;
+    fill: rgb(255, 221, 87);
     stroke: white;
     stroke-width: 1px;
 }
@@ -17,11 +22,9 @@
 .menu-list {
     padding: 2em;
 }
-
 iframe {
     padding: .5em !important;
     border: 2px solid black !important;
-
 }
 h2 {
     padding: 1em;
@@ -30,6 +33,13 @@ h2 {
 body {
     text-align: center;
 }
-.header {
-    margin: 2em;
+header {
+  margin: 2em;
+  line-height: 50px;
+}
+header div {
+  display: inline-block;
+}
+li {
+  font-size: 10px;
 }
