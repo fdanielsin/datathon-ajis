@@ -14,3 +14,16 @@
     line-height: 2em;
     color: whitesmoke;
 }
+.menu-list {
+    padding: 2em;
+}
+
+iframe {
+    padding: 1em;
+    border: 2px solid black;
+
+}
+h2 {
+    padding: 1em;
+    font-size: 2em;
+}
