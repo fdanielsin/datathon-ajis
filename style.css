@@ -1,0 +1,16 @@
+#map {
+    background: blue;
+    height: 500px;
+    width: 500px;
+}
+#tooltip { 
+    background: red;
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+}
+.department:hover {
+    fill: yellow;
+    stroke: white;
+    stroke-width: 1px;
+}
